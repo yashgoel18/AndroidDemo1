@@ -10,7 +10,7 @@
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        android:theme="@style/Base.Theme.AppCompat.Light">
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
@@ -25,8 +25,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:tabIndicatorHeight="3dp"
-            app:tabTextColor="#9FA8DA"
-            app:tabIndicatorColor="#fff"
+            app:tabTextColor="@color/colorInactiveTabText"
+            app:tabIndicatorColor="@color/colorAccent"
+            app:tabSelectedTextColor="@color/colorAccent"
             app:tabMode="scrollable" />
 
     </android.support.design.widget.AppBarLayout>
